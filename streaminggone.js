@@ -8,5 +8,7 @@
 // @exclude      *://krunker.io/social*
 // @grant        none
 // ==/UserScript==
+document.getElementById("streamContainer").style.display = "none";
+document.getElementById("newsholder").style.display = "none";
+document.getElementById("google_ads_iframe_/15184186/krunkerio_728x90_1_0__container__").style.display = "none";
 
-document.getElementById("streamContainer").remove();
